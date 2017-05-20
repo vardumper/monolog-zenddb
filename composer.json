@@ -1,5 +1,8 @@
 {
     "name": "vardumper/monolog-zenddb",
+    "description": "A handler for Monolog that sends messages to MySQL using a ZendDb Adapter instance",
+    "keywords": ["log", "logging", "monolog", "mysql", "database", "zenddb"],
+    "homepage": "https://github.com/vardumper/monolog-zenddb",
     "authors": [
         {
             "name": "Erik Pöhler",
@@ -8,7 +11,7 @@
     ],
     "autoload": {
         "psr-4" : {
-            "ZendDbHandler" : "src/Vardumper/MonologZendDb"
+            "ZendDbHandler\\" : "src/Vardumper/MonologZendDb"
         }
     }
 }
