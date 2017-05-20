@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4" : {
-            "ZendDbHandler\\" : "src/Vardumper/MonologZendDb"
+            "ZendDbHandler\\" : "src/ZendDbHandler"
         }
     }
 }
