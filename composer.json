@@ -1,8 +1,8 @@
 {
     "name": "vardumper/monolog-zenddb",
     "autoload": {
-        "psr-0" : {
-            "Vardumper\\MonologZendDb" : "src"
+        "psr-4" : {
+            "Vardumper\\MonologZendDb" : "src/Vardumper/MonologZendDb"
         }
     }
 }
