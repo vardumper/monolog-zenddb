@@ -10,8 +10,8 @@ use Zend\Stdlib\ArrayUtils;
  * This class is a handler for Monolog, which can be used
  * to write records in a MySQL table
  *
- * Class MySQLHandler
- * @package wazaari\MysqlHandler
+ * Class ZendDbHandler
+ * @package vardumper\ZendDbHandler
  */
 class ZendDbHandler extends AbstractProcessingHandler {
     
@@ -47,7 +47,7 @@ class ZendDbHandler extends AbstractProcessingHandler {
     /**
      * Constructor of this class, sets the PDO and calls parent constructor
      *
-     * @param PDO $pdo                  PDO Connector for the database
+     * @param Zend\Db\Adapter\Adapter $adapter ZendDb Adapter
      * @param bool $table               Table in the database to store the logs in
      * @param array $additionalFields   Additional Context Parameters to store in database
      * @param bool|int $level           Debug level which this handler should store
