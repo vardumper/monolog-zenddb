@@ -6,24 +6,11 @@ Add a `repository` key to your composer.json:
 
 ```json
 "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "vardumper/monolog-zenddb",
-                "version": "dev-master",
-                "source": {
-                    "url": "https://github.com/vardumper/monolog-zenddb.git",
-                    "type": "git",
-                    "reference": "master"
-                },
-                "autoload": {
-                    "psr-0" : {
-                        "Vardumper\\MonologZendDb" : "src"
-                    }
-                }
-            }
-        }
-    ],
+    {
+        "type": "git",
+        "url": "https://github.com/vardumper/monolog-zenddb"
+    }
+],
 ```
 
 Add the repository to the require section of your composer.json
