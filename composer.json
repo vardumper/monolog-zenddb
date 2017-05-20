@@ -1,8 +1,14 @@
 {
     "name": "vardumper/monolog-zenddb",
+    "authors": [
+        {
+            "name": "Erik Pöhler",
+            "email": "erikpoehler@gmx.de"
+        }
+    ],
     "autoload": {
         "psr-4" : {
-            "Vardumper\\MonologZendDb" : "src/Vardumper/MonologZendDb"
+            "ZendDbHandler" : "src/Vardumper/MonologZendDb"
         }
     }
 }
